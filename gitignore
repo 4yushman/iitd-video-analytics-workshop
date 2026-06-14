@@ -1,0 +1,30 @@
+*.tar.gz
+*.zip
+*.mp4
+*.hevc
+*.y4m
+*.yuv
+*.raw
+*.jpeg
+*.jpg
+*.png
+
+# Data folders
+data/
+sample/
+segments/
+frames/
+removedTileMp4/
+set_*/
+
+# Docker
+.docker/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
