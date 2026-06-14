@@ -26,5 +26,16 @@ Dr. Shibendu from Amazon Prime Video also gave a talk on adaptive sensing.
 - Ran heatmap and filesize comparison scripts
 - Pipeline: FFmpeg → Kvazaar → MP4Box → GPAC → TileClipper
 
-## Folder Structure
 
+## Prerequisites
+
+- Docker installed and running
+- Ubuntu/Linux recommended
+- ~4 GB free disk space for Docker images
+
+## Quick Start
+
+### TRQS/FrameQL
+```bash
+docker pull satyamj030/trqs:latest
+docker run -d -p 8080:8080 -v $(pwd)/data:/app/data --name frameql satyamj030/trqs:latest
