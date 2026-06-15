@@ -1,26 +1,20 @@
 # Setup Guide
 
-For Workshop TrQL hands-on system setup.
+System setup for Video Analytics Workshop hands-on sessions.
 
 ## Prerequisites
 
 - Docker installed and running
 - ~10 GB free disk space
-- Ubuntu/Linux, macOS, or Windows
+- Ubuntu/Linux, macOS, ya Windows (Docker Desktop)
 
 ---
 
 ## 1. TRQS/FrameQL Setup
 
-### Step 1: Clone Repository
+### Step 1: Download Data (~7 GB)
 ```bash
-git clone https://github.com/4yushman/iitd-video-analytics-workshop.git
-cd iitd-video-analytics-workshop
-```
-
-### Step 2: Download Data (~7 GB)
-```bash
-# Download dset from google drive
+# Download from Google Drive
 # Link: https://drive.google.com/file/d/17y6EmgFWBdgpwfXZndj4_nk_eO2f5tY0/view
 
 # Extract
@@ -108,7 +102,7 @@ docker run -it -v $(pwd)/sample:/workspace adarshiiitd/tileclipper:latest
 
 ## Troubleshooting
 
-**TRQS dashboard isn't popping up?**
+**TRQS dashboard nahi khul raha?**
 ```bash
 docker logs frameql
 # Check if data path is correct
