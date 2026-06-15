@@ -7,7 +7,6 @@
 *.raw
 *.jpeg
 *.jpg
-*.png
 
 # Data folders
 data/
