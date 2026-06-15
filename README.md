@@ -6,7 +6,7 @@ Workshop held on June 13, 2026 at IIT Delhi campus. This was a collaboration bet
 
 Hands-on from the Video Analytics Systems workshop. Two main sessions were conducted:
 
-- TRQS/FrameQL — by Abhilash Sharma, Rishab, Satyam (IIT Delhi)
+- TRQS/FrameQL — by Assistant Prof. Abhilash Jindal, Phd Scholar Satyam, Rishab (IIT Delhi)
 - TileClipper — by Prof. Arani Bhattacharya and team (IIIT Delhi)
 
 Dr. Shibendu from Amazon Prime Video also gave a talk on adaptive sensing.
