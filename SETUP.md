@@ -31,12 +31,12 @@ data/
     ...
 ```
 
-### Step 3: Pull Docker Image
+### Step 2: Pull Docker Image
 ```bash
 docker pull satyamj030/trqs:latest
 ```
 
-### Step 4: Run Container
+### Step 3: Run Container
 Replace `/absolute/path/to/data` with your actual path:
 
 ```bash
@@ -47,7 +47,7 @@ docker run -d \
   satyamj030/trqs:latest
 ```
 
-### Step 5: Open Dashboard
+### Step 4: Open Dashboard
 ```
 http://localhost:8080
 ```
