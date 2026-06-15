@@ -1,0 +1,8 @@
+# This project uses Docker containers.
+# No Python packages required to be installed locally.
+
+# Required:
+# - Docker >= 20.10
+# - ~10 GB disk space
+
+# See SETUP.md for detailed installation instructions.
