@@ -5,8 +5,6 @@
 *.y4m
 *.yuv
 *.raw
-*.jpeg
-*.jpg
 
 # Data folders
 data/
