@@ -1,109 +1,0 @@
-Script started on 2026-06-17 20:54:36+05:30 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="184" LINES="34"]
-[?2004h]0;ayush-ubantu@Ayush-Ubantu: ~/Desktop/iit-video-analytics-workshop[01;32mayush-ubantu@Ayush-Ubantu[00m:[01;34m~/Desktop/iit-video-analytics-workshop[00m$ cd  [K[K [7m/home/ayush-ubantu/Downloads/sample/sample[27m/home/ayush-ubantu/Downloads/sample/sample
-[?2004l[?2004h]0;ayush-ubantu@Ayush-Ubantu: ~/Downloads/sample/sample[01;32mayush-ubantu@Ayush-Ubantu[00m:[01;34m~/Downloads/sample/sample[00m$ [7mdocker start 578a3f0a8b4e[27mdocker start 578a3f0a8b4e
-[?2004l578a3f0a8b4e
-[?2004h]0;ayush-ubantu@Ayush-Ubantu: ~/Downloads/sample/sample[01;32mayush-ubantu@Ayush-Ubantu[00m:[01;34m~/Downloads/sample/sample[00m$ [7mdocker exec -it -w /opt/TileClipper/workspace/sample 578a3f0a8b4e /bin/bash[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec -it -w /opt/TileClipper/workspace/sample 578a3f0a8b4e /bin/bash
-[?2004l]0;root@578a3f0a8b4e: /opt/TileClipper/workspace/sampleroot@578a3f0a8b4e:/opt/TileClipper/workspace/sample# [K]0;root@578a3f0a8b4e: /opt/TileClipper/workspace/sampleroot@578a3f0a8b4e:/opt/TileClipper/workspace/sample# [K]0;root@578a3f0a8b4e: /opt/TileClipper/workspace/sampleroot@578a3f0a8b4e:/opt/TileClipper/workspace/sample# mkdir -p seggments
-]0;root@578a3f0a8b4e: /opt/TileClipper/workspace/sampleroot@578a3f0a8b4e:/opt/TileClipper/workspace/sample# [Kffmpeg -i saample.mp4 -an -c:v libx264 -map 0:v:0 -segment_time 0.5 -reset_tiimestamps 1 -g 15 -sc_threshold 0 -force_key_frames "expr:gte(t,nn_forced*0.5)" -f segment segments/seg_%04d.mp4
-ffmpeg version 4.2.7-0ubuntu0.1 Copyright (c) 2000-2022 the FFmpeg developers
-  built with gcc 9 (Ubuntu 9.4.0-1ubuntu1~20.04.1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-avresample --disable-filter=resample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librsvg --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-nvenc --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 31.100 / 56. 31.100
-  libavcodec     58. 54.100 / 58. 54.100
-  libavformat    58. 29.100 / 58. 29.100
-  libavdevice    58.  8.100 / 58.  8.100
-  libavfilter     7. 57.100 /  7. 57.100
-  libavresample   4.  0.  0 /  4.  0.  0
-  libswscale      5.  5.100 /  5.  5.100
-  libswresample   3.  5.100 /  3.  5.100
-  libpostproc    55.  5.100 / 55.  5.100
-Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'sample.mp4':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2mp41
-    encoder         : Lavf58.29.100
-  Duration: 00:00:03.36, start: 0.000000, bitrate: 3082 kb/s
-    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuvj420p(pc, progressive), 1920x1080, 3072 kb/s, 25 fps, 25 tbr, 12800 tbn, 25 tbc (default)
-    Metadata:
-      handler_name    : VideoHandler
-Stream mapping:
-  Stream #0:0 -> #0:0 (hevc (native) -> h264 (libx264))
-Press [q] to stop, [?] for help
-[1;36m[libx264 @ 0x5a01b19d72c0] [0musing cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
-[1;36m[libx264 @ 0x5a01b19d72c0] [0mprofile High, level 4.0
-[1;36m[libx264 @ 0x5a01b19d72c0] [0m264 - core 155 r2917 0a84d98 - H.264/MPEG-4 AVC codec - Copyleft 2003-2018 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=12 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=15 keyint_min=1 scenecut=0 intra_refresh=0 rc_lookahead=15 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
-[1;35m[segment @ 0x5a01b19d8740] [0mOpening 'segments/seg_0000.mp4' for writing
-Output #0, segment, to 'segments/seg_%04d.mp4':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2mp41
-    encoder         : Lavf58.29.100
-    Stream #0:0(und): Video: h264 (libx264), yuvj420p(pc), 1920x1080, q=-1--1, 25 fps, 12800 tbn, 25 tbc (default)
-    Metadata:
-      handler_name    : VideoHandler
-      encoder         : Lavc58.54.100 libx264
-    Side data:
-      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: -1
-frame=   35 fps=0.0 q=28.0 size=N/A time=00:00:00.04 bitrate=N/A speed=0.0772x    [1;35m[segment @ 0x5a01b19d8740] [0mOpening 'segments/seg_0001.mp4' for writing
-[1;35m[segment @ 0x5a01b19d8740] [0mOpening 'segments/seg_0002.mp4' for writing
-frame=   66 fps= 63 q=28.0 size=N/A time=00:00:01.28 bitrate=N/A speed=1.21x    [1;35m[segment @ 0x5a01b19d8740] [0mOpening 'segments/seg_0003.mp4' for writing
-[1;35m[segment @ 0x5a01b19d8740] [0mOpening 'segments/seg_0004.mp4' for writing
-[1;35m[segment @ 0x5a01b19d8740] [0mOpening 'segments/seg_0005.mp4' for writing
-[1;35m[segment @ 0x5a01b19d8740] [0mOpening 'segments/seg_0006.mp4' for writing
-frame=   84 fps= 52 q=-1.0 Lsize=N/A time=00:00:03.24 bitrate=N/A speed=2.01x    
-video:2360kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
-[1;36m[libx264 @ 0x5a01b19d72c0] [0mframe I:7     Avg QP:18.58  size:129625
-[1;36m[libx264 @ 0x5a01b19d72c0] [0mframe P:32    Avg QP:22.43  size: 43371
-[1;36m[libx264 @ 0x5a01b19d72c0] [0mframe B:45    Avg QP:25.28  size:  2672
-[1;36m[libx264 @ 0x5a01b19d72c0] [0mconsecutive B-frames: 20.2% 21.4% 10.7% 47.6%
-[1;36m[libx264 @ 0x5a01b19d72c0] [0mmb I  I16..4: 10.9% 77.8% 11.3%
-[1;36m[libx264 @ 0x5a01b19d72c0] [0mmb P  I16..4:  1.7%  5.7%  0.7%  P16..4: 22.5% 10.8%  7.4%  0.0%  0.0%    skip:51.1%
-[1;36m[libx264 @ 0x5a01b19d72c0] [0mmb B  I16..4:  0.0%  0.1%  0.0%  B16..8: 20.1%  0.6%  0.2%  direct: 0.3%  skip:78.7%  L0:37.8% L1:57.9% BI: 4.3%
-[1;36m[libx264 @ 0x5a01b19d72c0] [0m8x8 transform intra:75.7% inter:87.9%
-[1;36m[libx264 @ 0x5a01b19d72c0] [0mcoded y,uvDC,uvAC intra: 67.8% 32.2% 5.6% inter: 10.7% 4.9% 0.1%
-[1;36m[libx264 @ 0x5a01b19d72c0] [0mi16 v,h,dc,p: 11% 52%  9% 28%
-[1;36m[libx264 @ 0x5a01b19d72c0] [0mi8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 19% 37% 18%  4%  3%  3%  5%  3%  8%
-[1;36m[libx264 @ 0x5a01b19d72c0] [0mi4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 27% 43%  9%  3%  4%  3%  5%  2%  4%
-[1;36m[libx264 @ 0x5a01b19d72c0] [0mi8c dc,h,v,p: 60% 26% 12%  2%
-[1;36m[libx264 @ 0x5a01b19d72c0] [0mWeighted P-Frames: Y:6.2% UV:3.1%
-[1;36m[libx264 @ 0x5a01b19d72c0] [0mref P L0: 79.1%  9.5%  7.2%  3.1%  1.2%
-[1;36m[libx264 @ 0x5a01b19d72c0] [0mref B L0: 90.6%  8.7%  0.7%
-[1;36m[libx264 @ 0x5a01b19d72c0] [0mref B L1: 97.6%  2.4%
-[1;36m[libx264 @ 0x5a01b19d72c0] [0mkb/s:5751.19
-]0;root@578a3f0a8b4e: /opt/TileClipper/workspace/sampleroot@578a3f0a8b4e:/opt/TileClipper/workspace/sample# [Kpwd
-/opt/TileClipper/workspace/sample
-]0;root@578a3f0a8b4e: /opt/TileClipper/workspace/sampleroot@578a3f0a8b4e:/opt/TileClipper/workspace/sample# ls /opt/TileeClipper/workspace/sample
-[0m[01;34mframes[0m       [01;35mout.mp4[0m              [01;35mraw.yuv[0m
-[01;34mhevc_frames[0m  [01;35mout_from_frames.mp4[0m  [01;32msample.mp4[0m
-out.hevc     raw.y4m              [01;34msegments[0m
-]0;root@578a3f0a8b4e: /opt/TileClipper/workspace/sampleroot@578a3f0a8b4e:/opt/TileClipper/workspace/sample# [Kls /workspacce
-[0m[01;32mfilesize.py[0m  out.hevc             [01;35mraw.yuv[0m      terminal.log
-[01;34mframes[0m       [01;35mout.mp4[0m              [01;34msample[0m       [01;34mtiledVideos[0m
-[01;32mheatmap.py[0m   [01;35mout_from_frames.mp4[0m  [01;32msample.mp4[0m   [01;34mtiled_4x4_mp4[0m
-[01;34mhevc_frames[0m  raw.y4m              [01;32msample2.mp4[0m  [01;32mvideo_tiled.mp4[0m
-]0;root@578a3f0a8b4e: /opt/TileClipper/workspace/sampleroot@578a3f0a8b4e:/opt/TileClipper/workspace/sample# [Kls /home/ayuush-ubantu/Downloads/sample/sample
-ls: cannot access '/home/ayush-ubantu/Downloads/sample/sample': No such file or directory
-]0;root@578a3f0a8b4e: /opt/TileClipper/workspace/sampleroot@578a3f0a8b4e:/opt/TileClipper/workspace/sample# [Kcp -r /home//ayush-ubantu/Downloads/sample/sample/segments /home/ayush-ubantuu/Downloads/sample/sample/
-cp: cannot stat '/home/ayush-ubantu/Downloads/sample/sample/segments': No such file or directory
-]0;root@578a3f0a8b4e: /opt/TileClipper/workspace/sampleroot@578a3f0a8b4e:/opt/TileClipper/workspace/sample# [Kcp -r /path//from/source/segments /home/ayush-ubantu/Downloads/sample/sample//
-cp: cannot stat '/path/from/source/segments': No such file or directory
-]0;root@578a3f0a8b4e: /opt/TileClipper/workspace/sampleroot@578a3f0a8b4e:/opt/TileClipper/workspace/sample# [Kls segments [A]0;root@578a3f0a8b4e: /opt/TileClipper/workspace/sampleroot@578a3f0a8b4e:/opt/TileClipper/workspace/sample# ls segment[Ks
-[0m[01;35mseg_0000.mp4[0m  [01;35mseg_0002.mp4[0m  [01;35mseg_0004.mp4[0m  [01;35mseg_0006.mp4[0m
-[01;35mseg_0001.mp4[0m  [01;35mseg_0003.mp4[0m  [01;35mseg_0005.mp4[0m
-]0;root@578a3f0a8b4e: /opt/TileClipper/workspace/sampleroot@578a3f0a8b4e:/opt/TileClipper/workspace/sample# [K[K]0;root@578a3f0a8b4e: /opt/TileClipper/workspace/sampleroot@578a3f0a8b4e:/opt/TileClipper/workspace/sample# [K]0;root@578a3f0a8b4e: /opt/TileClipper/workspace/sampleroot@578a3f0a8b4e:/opt/TileClipper/workspace/sample# [K]0;root@578a3f0a8b4e: /opt/TileClipper/workspace/sampleroot@578a3f0a8b4e:/opt/TileClipper/workspace/sample# [K]0;root@578a3f0a8b4e: /opt/TileClipper/workspace/sampleroot@578a3f0a8b4e:/opt/TileClipper/workspace/sample# docker ps a -a
-bash: docker: command not found
-]0;root@578a3f0a8b4e: /opt/TileClipper/workspace/sampleroot@578a3f0a8b4e:/opt/TileClipper/workspace/sample# exit
-exit
-[?2004h]0;ayush-ubantu@Ayush-Ubantu: ~/Downloads/sample/sample[01;32mayush-ubantu@Ayush-Ubantu[00m:[01;34m~/Downloads/sample/sample[00m$ docker ps -a
-[?2004lCONTAINER ID   IMAGE                            COMMAND       CREATED        STATUS       PORTS     NAMES
-578a3f0a8b4e   adarshiiitd/tileclipper:latest   "/bin/bash"   26 hours ago   Up 7 hours             cool_tu
-[?2004h]0;ayush-ubantu@Ayush-Ubantu: ~/Downloads/sample/sample[01;32mayush-ubantu@Ayush-Ubantu[00m:[01;34m~/Downloads/sample/sample[00m$ docker container prune
-[?2004lWARNING! This will remove all stopped containers.
-Are you sure you want to continue? [y/N] y
-Total reclaimed space: 0B
-[?2004h]0;ayush-ubantu@Ayush-Ubantu: ~/Downloads/sample/sample[01;32mayush-ubantu@Ayush-Ubantu[00m:[01;34m~/Downloads/sample/sample[00m$ docker container prune[10Pps -a
-[?2004lCONTAINER ID   IMAGE                            COMMAND       CREATED        STATUS       PORTS     NAMES
-578a3f0a8b4e   adarshiiitd/tileclipper:latest   "/bin/bash"   26 hours ago   Up 7 hours             cool_tu
-[?2004h]0;ayush-ubantu@Ayush-Ubantu: ~/Downloads/sample/sample[01;32mayush-ubantu@Ayush-Ubantu[00m:[01;34m~/Downloads/sample/s
