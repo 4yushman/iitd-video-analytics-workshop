@@ -1,0 +1,285 @@
+ayush-ubantu@Ayush-Ubantu:~/Desktop/iit-video-analytics-workshop$ script terminal.log
+Script started, output log file is 'terminal.log'.
+ayush-ubantu@Ayush-Ubantu:~/Desktop/iit-video-analytics-workshop$ docker run -it --rm -v "/home/ayush-ubantu/Desktop/iit-video-analytics-workshop:/opt/TileClipper/workspace" adarshiiitd/tileclipper:latest /bin/bash
+root@5b93254f3799:/opt/TileClipper# cd /opt/TileClipper/workspace/2-tileclipper/sample/sample
+root@5b93254f3799:/opt/TileClipper/workspace/2-tileclipper/sample/sample# kvazaar -i raw.yuv --input-res 1920x1080 --tiles 4x4 --slice tiles --mv-constraint frametilemargin -o out_slice.hevc
+Disabling TMVP because tiles are used.
+Disabling WPP because tiles were enabled.
+Compiled: INTEL, flags: MMX SSE SSE2
+Detected: INTEL, flags: MMX SSE SSE2 SSE3 SSSE3 SSE41 SSE42 AVX AVX2
+Available: avx(11) avx2(55) sse2(2) sse41(4) 
+In use: avx(1) avx2(55) 
+--owf=auto value set to 2.
+--threads=auto value set to 8.
+Input: raw.yuv, output: out_slice.hevc
+  Video size: 1920x1080 (input=1920x1080)
+POC    0 QP 21 AVG QP 21.0 (I-frame)    1055472 bits PSNR Y 48.2913 U 53.9791 V 54.9078
+POC    1 QP 25 AVG QP 23.0 (P-frame)      18416 bits PSNR Y 47.0225 U 53.8107 V 54.7606 [L0 0 ] [L1 ]
+POC    2 QP 24 AVG QP 23.3 (P-frame)     211552 bits PSNR Y 46.1113 U 53.2774 V 54.2378 [L0 1 ] [L1 ]
+POC    3 QP 25 AVG QP 23.8 (P-frame)      86784 bits PSNR Y 45.4508 U 53.2866 V 54.2563 [L0 2 ] [L1 ]
+POC    4 QP 23 AVG QP 23.6 (P-frame)     213848 bits PSNR Y 46.6206 U 53.4905 V 54.5592 [L0 3 ] [L1 ]
+POC    5 QP 25 AVG QP 23.8 (P-frame)     252208 bits PSNR Y 45.1387 U 52.5718 V 53.5580 [L0 4 ] [L1 ]
+POC    6 QP 24 AVG QP 23.9 (P-frame)     240168 bits PSNR Y 45.3102 U 52.6061 V 53.7435 [L0 5 ] [L1 ]
+POC    7 QP 25 AVG QP 24.0 (P-frame)     172960 bits PSNR Y 44.6922 U 52.2250 V 53.4135 [L0 6 ] [L1 ]
+POC    8 QP 23 AVG QP 23.9 (P-frame)     443536 bits PSNR Y 45.9659 U 52.3739 V 53.4221 [L0 7 ] [L1 ]
+POC    9 QP 25 AVG QP 24.0 (P-frame)     162152 bits PSNR Y 45.2947 U 52.2694 V 53.2957 [L0 8 ] [L1 ]
+POC   10 QP 24 AVG QP 24.0 (P-frame)     176968 bits PSNR Y 45.5574 U 52.2913 V 53.4728 [L0 9 ] [L1 ]
+POC   11 QP 25 AVG QP 24.1 (P-frame)     210152 bits PSNR Y 45.2976 U 52.1102 V 53.2747 [L0 10 ] [L1 ]
+POC   12 QP 23 AVG QP 24.0 (P-frame)      59488 bits PSNR Y 45.5969 U 52.9323 V 54.1779 [L0 11 ] [L1 ]
+POC   13 QP 25 AVG QP 24.1 (P-frame)      11080 bits PSNR Y 45.5697 U 52.9070 V 54.1229 [L0 12 ] [L1 ]
+POC   14 QP 24 AVG QP 24.1 (P-frame)     543456 bits PSNR Y 45.4307 U 52.2082 V 53.4498 [L0 13 ] [L1 ]
+POC   15 QP 25 AVG QP 24.1 (P-frame)      47800 bits PSNR Y 45.2695 U 52.4563 V 53.6388 [L0 14 ] [L1 ]
+POC   16 QP 23 AVG QP 24.1 (P-frame)      98416 bits PSNR Y 45.5729 U 52.9091 V 54.1708 [L0 15 ] [L1 ]
+POC   17 QP 25 AVG QP 24.1 (P-frame)       9736 bits PSNR Y 45.4518 U 52.9327 V 54.1784 [L0 16 ] [L1 ]
+POC   18 QP 24 AVG QP 24.1 (P-frame)      34240 bits PSNR Y 45.1380 U 52.9070 V 54.1835 [L0 17 ] [L1 ]
+POC   19 QP 25 AVG QP 24.1 (P-frame)     172032 bits PSNR Y 44.9377 U 52.5555 V 53.9214 [L0 18 ] [L1 ]
+POC   20 QP 23 AVG QP 24.1 (P-frame)     184344 bits PSNR Y 45.7145 U 52.9683 V 54.3135 [L0 19 ] [L1 ]
+POC   21 QP 25 AVG QP 24.1 (P-frame)     137704 bits PSNR Y 45.0904 U 52.7806 V 54.0711 [L0 20 ] [L1 ]
+POC   22 QP 24 AVG QP 24.1 (P-frame)     391608 bits PSNR Y 45.4233 U 52.1088 V 53.3579 [L0 21 ] [L1 ]
+POC   23 QP 25 AVG QP 24.2 (P-frame)      98200 bits PSNR Y 44.9594 U 52.0290 V 53.2093 [L0 22 ] [L1 ]
+POC   24 QP 23 AVG QP 24.1 (P-frame)      82208 bits PSNR Y 45.4318 U 52.6934 V 53.9427 [L0 23 ] [L1 ]
+POC   25 QP 25 AVG QP 24.2 (P-frame)     169376 bits PSNR Y 45.2243 U 52.4754 V 53.7155 [L0 24 ] [L1 ]
+POC   26 QP 24 AVG QP 24.1 (P-frame)      50504 bits PSNR Y 45.2871 U 52.5941 V 53.8459 [L0 25 ] [L1 ]
+POC   27 QP 25 AVG QP 24.2 (P-frame)       8384 bits PSNR Y 45.2893 U 52.5630 V 53.8414 [L0 26 ] [L1 ]
+POC   28 QP 23 AVG QP 24.1 (P-frame)     850744 bits PSNR Y 45.6980 U 52.2079 V 53.3389 [L0 27 ] [L1 ]
+POC   29 QP 25 AVG QP 24.2 (P-frame)      22104 bits PSNR Y 45.5298 U 52.4849 V 53.5889 [L0 28 ] [L1 ]
+POC   30 QP 24 AVG QP 24.2 (P-frame)     100904 bits PSNR Y 45.5659 U 52.5279 V 53.6532 [L0 29 ] [L1 ]
+POC   31 QP 25 AVG QP 24.2 (P-frame)      27448 bits PSNR Y 45.0319 U 52.5109 V 53.4822 [L0 30 ] [L1 ]
+POC   32 QP 23 AVG QP 24.2 (P-frame)     235984 bits PSNR Y 45.6887 U 52.6960 V 53.7939 [L0 31 ] [L1 ]
+POC   33 QP 25 AVG QP 24.2 (P-frame)     162816 bits PSNR Y 44.1750 U 52.0529 V 53.2248 [L0 32 ] [L1 ]
+POC   34 QP 24 AVG QP 24.2 (P-frame)     281608 bits PSNR Y 44.9694 U 52.0471 V 53.1132 [L0 33 ] [L1 ]
+POC   35 QP 25 AVG QP 24.2 (P-frame)     194512 bits PSNR Y 44.6408 U 52.0293 V 53.0125 [L0 34 ] [L1 ]
+POC   36 QP 23 AVG QP 24.2 (P-frame)     482088 bits PSNR Y 45.7501 U 51.9729 V 52.9547 [L0 35 ] [L1 ]
+POC   37 QP 25 AVG QP 24.2 (P-frame)     145768 bits PSNR Y 45.1344 U 51.8663 V 52.8489 [L0 36 ] [L1 ]
+POC   38 QP 24 AVG QP 24.2 (P-frame)      38792 bits PSNR Y 45.1867 U 52.3021 V 53.3209 [L0 37 ] [L1 ]
+POC   39 QP 25 AVG QP 24.2 (P-frame)     165432 bits PSNR Y 44.9818 U 51.9489 V 52.9597 [L0 38 ] [L1 ]
+POC   40 QP 23 AVG QP 24.2 (P-frame)     109008 bits PSNR Y 45.3301 U 52.3236 V 53.3590 [L0 39 ] [L1 ]
+POC   41 QP 25 AVG QP 24.2 (P-frame)      11840 bits PSNR Y 45.3034 U 52.3171 V 53.3539 [L0 40 ] [L1 ]
+POC   42 QP 24 AVG QP 24.2 (P-frame)     715640 bits PSNR Y 44.8903 U 51.6018 V 52.2243 [L0 41 ] [L1 ]
+POC   43 QP 25 AVG QP 24.2 (P-frame)      36400 bits PSNR Y 44.6480 U 51.8052 V 52.5807 [L0 42 ] [L1 ]
+POC   44 QP 23 AVG QP 24.2 (P-frame)     319864 bits PSNR Y 45.2452 U 51.9538 V 52.9016 [L0 43 ] [L1 ]
+POC   45 QP 25 AVG QP 24.2 (P-frame)      72904 bits PSNR Y 44.8461 U 51.9497 V 52.9148 [L0 44 ] [L1 ]
+POC   46 QP 24 AVG QP 24.2 (P-frame)      97312 bits PSNR Y 44.9853 U 52.0768 V 52.9917 [L0 45 ] [L1 ]
+POC   47 QP 25 AVG QP 24.2 (P-frame)     276720 bits PSNR Y 44.3098 U 51.4291 V 52.2857 [L0 46 ] [L1 ]
+POC   48 QP 23 AVG QP 24.2 (P-frame)     320776 bits PSNR Y 45.3704 U 51.9354 V 52.8948 [L0 47 ] [L1 ]
+POC   49 QP 25 AVG QP 24.2 (P-frame)     125944 bits PSNR Y 43.8058 U 51.3647 V 52.3092 [L0 48 ] [L1 ]
+POC   50 QP 24 AVG QP 24.2 (P-frame)     384480 bits PSNR Y 44.8234 U 51.4418 V 52.3086 [L0 49 ] [L1 ]
+POC   51 QP 25 AVG QP 24.2 (P-frame)     180288 bits PSNR Y 44.5701 U 51.3112 V 52.1994 [L0 50 ] [L1 ]
+POC   52 QP 23 AVG QP 24.2 (P-frame)     189232 bits PSNR Y 45.1209 U 51.8835 V 52.8136 [L0 51 ] [L1 ]
+POC   53 QP 25 AVG QP 24.2 (P-frame)     163896 bits PSNR Y 44.9136 U 51.5215 V 52.3276 [L0 52 ] [L1 ]
+POC   54 QP 24 AVG QP 24.2 (P-frame)      55000 bits PSNR Y 44.9871 U 51.8308 V 52.7424 [L0 53 ] [L1 ]
+POC   55 QP 25 AVG QP 24.2 (P-frame)       8480 bits PSNR Y 44.9888 U 51.8422 V 52.7380 [L0 54 ] [L1 ]
+POC   56 QP 23 AVG QP 24.2 (P-frame)     885024 bits PSNR Y 45.6779 U 51.3886 V 52.4927 [L0 55 ] [L1 ]
+POC   57 QP 25 AVG QP 24.2 (P-frame)      30104 bits PSNR Y 45.1625 U 51.6728 V 52.7761 [L0 56 ] [L1 ]
+POC   58 QP 24 AVG QP 24.2 (P-frame)     284328 bits PSNR Y 44.9764 U 51.4778 V 52.5976 [L0 57 ] [L1 ]
+POC   59 QP 25 AVG QP 24.2 (P-frame)      77632 bits PSNR Y 44.3943 U 51.5406 V 52.6734 [L0 58 ] [L1 ]
+POC   60 QP 23 AVG QP 24.2 (P-frame)     242048 bits PSNR Y 45.4146 U 51.8084 V 52.9182 [L0 59 ] [L1 ]
+POC   61 QP 25 AVG QP 24.2 (P-frame)     299472 bits PSNR Y 44.5486 U 51.3367 V 52.2855 [L0 60 ] [L1 ]
+POC   62 QP 24 AVG QP 24.2 (P-frame)     225376 bits PSNR Y 44.8868 U 51.5936 V 52.6348 [L0 61 ] [L1 ]
+POC   63 QP 25 AVG QP 24.2 (P-frame)     107232 bits PSNR Y 44.5989 U 51.4858 V 52.5492 [L0 62 ] [L1 ]
+POC    0 QP 21 AVG QP 24.2 (I-frame)     792880 bits PSNR Y 48.2114 U 53.5214 V 54.2268
+POC    1 QP 25 AVG QP 24.2 (P-frame)      53144 bits PSNR Y 47.3057 U 53.3358 V 54.0798 [L0 0 ] [L1 ]
+POC    2 QP 24 AVG QP 24.2 (P-frame)      24072 bits PSNR Y 47.3169 U 53.4763 V 54.3606 [L0 1 ] [L1 ]
+POC    3 QP 25 AVG QP 24.2 (P-frame)     259000 bits PSNR Y 46.3344 U 52.3949 V 53.2198 [L0 2 ] [L1 ]
+POC    4 QP 23 AVG QP 24.2 (P-frame)      86624 bits PSNR Y 46.6567 U 53.0697 V 54.1774 [L0 3 ] [L1 ]
+POC    5 QP 25 AVG QP 24.2 (P-frame)      90976 bits PSNR Y 46.0338 U 52.8741 V 53.9013 [L0 4 ] [L1 ]
+POC    6 QP 24 AVG QP 24.2 (P-frame)     673432 bits PSNR Y 45.2782 U 51.5984 V 52.5913 [L0 5 ] [L1 ]
+POC    7 QP 25 AVG QP 24.2 (P-frame)      24632 bits PSNR Y 44.9954 U 52.0676 V 53.0395 [L0 6 ] [L1 ]
+POC    8 QP 23 AVG QP 24.2 (P-frame)     275856 bits PSNR Y 45.5613 U 52.3459 V 53.5272 [L0 7 ] [L1 ]
+POC    9 QP 25 AVG QP 24.2 (P-frame)      26560 bits PSNR Y 44.7359 U 52.3046 V 53.4573 [L0 8 ] [L1 ]
+POC   10 QP 24 AVG QP 24.2 (P-frame)     159936 bits PSNR Y 45.3206 U 52.3103 V 53.4309 [L0 9 ] [L1 ]
+POC   11 QP 25 AVG QP 24.2 (P-frame)     196672 bits PSNR Y 44.8769 U 51.9496 V 53.0319 [L0 10 ] [L1 ]
+POC   12 QP 23 AVG QP 24.2 (P-frame)     148520 bits PSNR Y 45.6643 U 52.5888 V 53.7276 [L0 11 ] [L1 ]
+POC   13 QP 25 AVG QP 24.2 (P-frame)     137312 bits PSNR Y 44.9616 U 52.2951 V 53.4440 [L0 12 ] [L1 ]
+POC   14 QP 24 AVG QP 24.2 (P-frame)     391912 bits PSNR Y 45.4167 U 51.6386 V 52.8489 [L0 13 ] [L1 ]
+POC   15 QP 25 AVG QP 24.2 (P-frame)     148032 bits PSNR Y 44.7410 U 51.4275 V 52.6869 [L0 14 ] [L1 ]
+POC   16 QP 23 AVG QP 24.2 (P-frame)     101448 bits PSNR Y 45.4004 U 52.3496 V 53.5944 [L0 15 ] [L1 ]
+POC   17 QP 25 AVG QP 24.2 (P-frame)     228056 bits PSNR Y 45.1605 U 52.0026 V 53.1418 [L0 16 ] [L1 ]
+POC   18 QP 24 AVG QP 24.2 (P-frame)      31176 bits PSNR Y 45.2565 U 52.3037 V 53.4527 [L0 17 ] [L1 ]
+POC   19 QP 25 AVG QP 24.2 (P-frame)      19152 bits PSNR Y 45.1836 U 52.3046 V 53.4415 [L0 18 ] [L1 ]
+ Processed 84 frames,   17139384 bits AVG PSNR Y 45.3655 U 52.2859 V 53.3522
+ Total CPU time: 17.128 s.
+ Encoding time: 17.121 s.
+ Encoding wall time: 3.054 s.
+ Encoding CPU usage: 560.66%
+ FPS: 27.51
+ Bitrate: 4.865 Mbps
+ AVG QP: 24.2
+ root@5b93254f3799:/opt/TileClipper/workspace/2-tileclipper/sample/sample# gpac -i out_slice.hevc tilesplit -o out_tiled.mp4
+[core] Creating default credential key in /root/.gpac/creds.key, use -cred=PATH/TO_FILE to overwrite
+Refreshing all options registry, this may take some time ... done
+root@5b93254f3799:/opt/TileClipper/workspace/2-tileclipper/sample/sample# gpac -i out_slice.hevc tilesplit -o out_tiled.mp4
+[core] Creating default credential key in /root/.gpac/creds.key, use -cred=PATH/TO_FILE to overwrite
+Refreshing all options registry, this may take some time ... done
+root@5b93254f3799:/opt/TileClipper/workspace/2-tileclipper/sample/sample# ffprobe -hide_banner -i out_tiled.mp4
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x6202d345f980] Could not find codec parameters for stream 0 (Video: none (hvc2 / 0x32637668), none, 1920x1080, 4 kb/s): unknown codec
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x6202d345f980] Could not find codec parameters for stream 1 (Video: none (hvt1 / 0x31747668), none, 448x256, 463 kb/s): unknown codec
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x6202d345f980] Could not find codec parameters for stream 2 (Video: none (hvt1 / 0x31747668), none, 512x256, 524 kb/s): unknown codec
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x6202d345f980] Could not find codec parameters for stream 3 (Video: none (hvt1 / 0x31747668), none, 448x256, 466 kb/s): unknown codec
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x6202d345f980] Could not find codec parameters for stream 4 (Video: none (hvt1 / 0x31747668), none, 512x256, 639 kb/s): unknown codec
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x6202d345f980] Could not find codec parameters for stream 5 (Video: none (hvt1 / 0x31747668), none, 448x256, 437 kb/s): unknown codec
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x6202d345f980] Could not find codec parameters for stream 6 (Video: none (hvt1 / 0x31747668), none, 512x256, 580 kb/s): unknown codec
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x6202d345f980] Could not find codec parameters for stream 7 (Video: none (hvt1 / 0x31747668), none, 448x256, 305 kb/s): unknown codec
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x6202d345f980] Could not find codec parameters for stream 8 (Video: none (hvt1 / 0x31747668), none, 512x256, 442 kb/s): unknown codec
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x6202d345f980] Could not find codec parameters for stream 9 (Video: none (hvt1 / 0x31747668), none, 448x256, 147 kb/s): unknown codec
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x6202d345f980] Could not find codec parameters for stream 10 (Video: none (hvt1 / 0x31747668), none, 512x256, 209 kb/s): unknown codec
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x6202d345f980] Could not find codec parameters for stream 11 (Video: none (hvt1 / 0x31747668), none, 448x256, 65 kb/s): unknown codec
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x6202d345f980] Could not find codec parameters for stream 12 (Video: none (hvt1 / 0x31747668), none, 512x256, 144 kb/s): unknown codec
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x6202d345f980] Could not find codec parameters for stream 13 (Video: none (hvt1 / 0x31747668), none, 448x312, 194 kb/s): unknown codec
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x6202d345f980] Could not find codec parameters for stream 14 (Video: none (hvt1 / 0x31747668), none, 512x312, 202 kb/s): unknown codec
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x6202d345f980] Could not find codec parameters for stream 15 (Video: none (hvt1 / 0x31747668), none, 448x312, 120 kb/s): unknown codec
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x6202d345f980] Could not find codec parameters for stream 16 (Video: none (hvt1 / 0x31747668), none, 512x312, 155 kb/s): unknown codec
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'out_tiled.mp4':
+  Metadata:
+    major_brand     : iso4
+    minor_version   : 1
+    compatible_brands: iso4hvti
+    creation_time   : 2026-06-17T22:38:49.000000Z
+    encoder         : GPAC-2.2.1-rev0-gb34e385-HEAD
+  Duration: 00:00:03.36, start: 0.000000, bitrate: 5141 kb/s
+    Stream #0:0(und): Video: none (hvc2 / 0x32637668), none, 1920x1080, 4 kb/s, 25 fps, 25 tbr, 25 tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2026-06-17T22:38:49.000000Z
+      handler_name    : *out_slice.hevc@GPAC2.2.1-rev0-gb34e385-HEAD
+    Stream #0:1(und): Video: none (hvt1 / 0x31747668), none, 448x256, 463 kb/s, 25 fps, 25 tbr, 25 tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2026-06-17T22:38:49.000000Z
+      handler_name    : *out_slice.hevc@GPAC2.2.1-rev0-gb34e385-HEAD
+    Stream #0:2(und): Video: none (hvt1 / 0x31747668), none, 512x256, 524 kb/s, 25 fps, 25 tbr, 25 tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2026-06-17T22:38:49.000000Z
+      handler_name    : *out_slice.hevc@GPAC2.2.1-rev0-gb34e385-HEAD
+    Stream #0:3(und): Video: none (hvt1 / 0x31747668), none, 448x256, 466 kb/s, 25 fps, 25 tbr, 25 tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2026-06-17T22:38:49.000000Z
+      handler_name    : *out_slice.hevc@GPAC2.2.1-rev0-gb34e385-HEAD
+    Stream #0:4(und): Video: none (hvt1 / 0x31747668), none, 512x256, 639 kb/s, 25 fps, 25 tbr, 25 tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2026-06-17T22:38:49.000000Z
+      handler_name    : *out_slice.hevc@GPAC2.2.1-rev0-gb34e385-HEAD
+    Stream #0:5(und): Video: none (hvt1 / 0x31747668), none, 448x256, 437 kb/s, 25 fps, 25 tbr, 25 tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2026-06-17T22:38:49.000000Z
+      handler_name    : *out_slice.hevc@GPAC2.2.1-rev0-gb34e385-HEAD
+    Stream #0:6(und): Video: none (hvt1 / 0x31747668), none, 512x256, 580 kb/s, 25 fps, 25 tbr, 25 tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2026-06-17T22:38:49.000000Z
+      handler_name    : *out_slice.hevc@GPAC2.2.1-rev0-gb34e385-HEAD
+    Stream #0:7(und): Video: none (hvt1 / 0x31747668), none, 448x256, 305 kb/s, 25 fps, 25 tbr, 25 tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2026-06-17T22:38:49.000000Z
+      handler_name    : *out_slice.hevc@GPAC2.2.1-rev0-gb34e385-HEAD
+    Stream #0:8(und): Video: none (hvt1 / 0x31747668), none, 512x256, 442 kb/s, 25 fps, 25 tbr, 25 tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2026-06-17T22:38:49.000000Z
+      handler_name    : *out_slice.hevc@GPAC2.2.1-rev0-gb34e385-HEAD
+    Stream #0:9(und): Video: none (hvt1 / 0x31747668), none, 448x256, 147 kb/s, 25 fps, 25 tbr, 25 tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2026-06-17T22:38:49.000000Z
+      handler_name    : *out_slice.hevc@GPAC2.2.1-rev0-gb34e385-HEAD
+    Stream #0:10(und): Video: none (hvt1 / 0x31747668), none, 512x256, 209 kb/s, 25 fps, 25 tbr, 25 tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2026-06-17T22:38:49.000000Z
+      handler_name    : *out_slice.hevc@GPAC2.2.1-rev0-gb34e385-HEAD
+    Stream #0:11(und): Video: none (hvt1 / 0x31747668), none, 448x256, 65 kb/s, 25 fps, 25 tbr, 25 tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2026-06-17T22:38:49.000000Z
+      handler_name    : *out_slice.hevc@GPAC2.2.1-rev0-gb34e385-HEAD
+    Stream #0:12(und): Video: none (hvt1 / 0x31747668), none, 512x256, 144 kb/s, 25 fps, 25 tbr, 25 tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2026-06-17T22:38:49.000000Z
+      handler_name    : *out_slice.hevc@GPAC2.2.1-rev0-gb34e385-HEAD
+    Stream #0:13(und): Video: none (hvt1 / 0x31747668), none, 448x312, 194 kb/s, 25 fps, 25 tbr, 25 tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2026-06-17T22:38:49.000000Z
+      handler_name    : *out_slice.hevc@GPAC2.2.1-rev0-gb34e385-HEAD
+    Stream #0:14(und): Video: none (hvt1 / 0x31747668), none, 512x312, 202 kb/s, 25 fps, 25 tbr, 25 tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2026-06-17T22:38:49.000000Z
+      handler_name    : *out_slice.hevc@GPAC2.2.1-rev0-gb34e385-HEAD
+    Stream #0:15(und): Video: none (hvt1 / 0x31747668), none, 448x312, 120 kb/s, 25 fps, 25 tbr, 25 tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2026-06-17T22:38:49.000000Z
+      handler_name    : *out_slice.hevc@GPAC2.2.1-rev0-gb34e385-HEAD
+    Stream #0:16(und): Video: none (hvt1 / 0x31747668), none, 512x312, 155 kb/s, 25 fps, 25 tbr, 25 tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2026-06-17T22:38:49.000000Z
+      handler_name    : *out_slice.hevc@GPAC2.2.1-rev0-gb34e385-HEAD
+Unsupported codec with id 0 for input stream 0
+Unsupported codec with id 0 for input stream 1
+Unsupported codec with id 0 for input stream 2
+Unsupported codec with id 0 for input stream 3
+Unsupported codec with id 0 for input stream 4
+Unsupported codec with id 0 for input stream 5
+Unsupported codec with id 0 for input stream 6
+Unsupported codec with id 0 for input stream 7
+Unsupported codec with id 0 for input stream 8
+Unsupported codec with id 0 for input stream 9
+Unsupported codec with id 0 for input stream 10
+Unsupported codec with id 0 for input stream 11
+Unsupported codec with id 0 for input stream 12
+Unsupported codec with id 0 for input stream 13
+Unsupported codec with id 0 for input stream 14
+Unsupported codec with id 0 for input stream 15
+Unsupported codec with id 0 for input stream 16
+root@5b93254f3799:/opt/TileClipper/workspace/2-tileclipper/sample/sample# ffprobe -hide_banner -i out.mp4
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'out.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2mp41
+    encoder         : Lavf58.29.100
+  Duration: 00:00:03.36, start: 0.000000, bitrate: 2128 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv, progressive), 1920x1080, 2118 kb/s, 25 fps, 25 tbr, 12800 tbn, 25 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+root@5b93254f3799:/opt/TileClipper/workspace/2-tileclipper/sample/sample# MP4Box -rem 4 -rem 8 out_tiled.mp4 -out out_removed_tile.mp4
+Removing track ID 4
+Removing track ID 8
+0.500 secs Interleaving
+root@5b93254f3799:/opt/TileClipper/workspace/2-tileclipper/sample/sample# gpac -play out_removed_tile.mp4
+[AudioOut] No audio output modules found, cannot load audio output
+Filter aout failed to setup: I/O Error
+Failed to load filter "aout": I/O Error
+No filter chain found for PID out_removed_tile.mp4 in filter fin to any loaded filters - NOT CONNECTED
+root@5b93254f3799:/opt/TileClipper/workspace/2-tileclipper/sample/sample# gpac -i out_removed_tile.mp4 tileagg -o out_agg.mp4
+root@5b93254f3799:/opt/TileClipper/workspace/2-tileclipper/sample/sample# ls -lh 
+total 528M
+-rw-rw-rw- 1 1000 1000  996 Jun 13 06:03 filesize.py
+drwxr-xr-x 2 root root 4.0K Jun 17 19:13 frames
+-rw-rw-rw- 1 1000 1000  807 Jun 13 06:03 heatmap.py
+drwxr-xr-x 2 root root 4.0K Jun 17 19:15 hevc_frames
+-rw-r--r-- 1 root root 2.1M Jun 17 19:09 out.hevc
+-rw-r--r-- 1 root root 873K Jun 17 19:07 out.mp4
+-rw-r--r-- 1 root root 1.8M Jun 17 22:49 out_agg.mp4
+-rw-r--r-- 1 root root 470K Jun 17 19:05 out_from_frames.mp4
+-rw-r--r-- 1 root root 1.8M Jun 17 22:42 out_removed_tile.mp4
+-rw-r--r-- 1 root root 2.1M Jun 17 22:36 out_slice.hevc
+-rw-r--r-- 1 root root 2.1M Jun 17 22:38 out_tiled.mp4
+-rw-r--r-- 1 root root 250M Jun 17 19:07 raw.y4m
+-rw-r--r-- 1 root root 250M Jun 17 19:09 raw.yuv
+-rw-rw-rw- 1 1000 1000 1.3M Jun 13 06:03 sample.mp4
+-rw-rw-rw- 1 1000 1000  17M Jun 13 06:03 sample2.mp4
+drwxr-xr-x 2 root root 4.0K Jun 17 19:03 segments
+drwxr-xr-x 2 1000 1000  28K Jun 13 06:10 tiledVideos
+drwxr-xr-x 3 1000 1000 4.0K Jun 13 06:10 tiled_4x4_mp4
+-rw-rw-rw- 1 1000 1000 126K Jun 13 06:03 video_tiled.mp4
+root@5b93254f3799:/opt/TileClipper/workspace/2-tileclipper/sample/sample# exit
+exit
