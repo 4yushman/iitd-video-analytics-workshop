@@ -1,7 +1,6 @@
 *.tar.gz
 *.zip
 .mp4
-*.hevc
 .y4m
 .yuv
 
