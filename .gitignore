@@ -1,3 +1,10 @@
+*.tar.gz
+*.zip
+.mp4
+*.hevc
+.y4m
+.yuv
+
 # generated sample/sample artifacts and large files >100MB
 2-tileclipper/sample/sample/segments_removed/
 2-tileclipper/sample/sample/tiledVideos/
