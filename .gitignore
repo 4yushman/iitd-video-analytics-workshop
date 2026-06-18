@@ -6,11 +6,13 @@
 .yuv
 *.raw
 
-# generated sample/sample artifacts
+# generated sample/sample artifacts and large files >100MB
 2-tileclipper/sample/sample/segments_removed/
 2-tileclipper/sample/sample/tiledVideos/
 2-tileclipper/sample/sample/hevc_frames/
 2-tileclipper/sample/sample/tiled_4x4_mp4/
+2-tileclipper/Encoding A Video Without Tiles/raw.y4m
+2-tileclipper/Encoding A Video Without Tiles/raw.yuv
 
 # Data folders
 data/

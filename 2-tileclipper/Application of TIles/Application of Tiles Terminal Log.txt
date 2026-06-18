@@ -1,0 +1,25 @@
+ayush-ubantu@Ayush-Ubantu:~/Desktop/iit-video-analytics-workshop$ script terminal.log
+Script started, output log file is 'terminal.log'.
+ayush-ubantu@Ayush-Ubantu:~/Desktop/iit-video-analytics-workshop$ docker run -it --rm -v "/home/ayush-ubantu/Desktop/iit-video-analytics-workshop:/opt/TileClipper/workspace" adarshiiitd/tileclipper:latest /bin/bash 
+root@1d91708fd024:/opt/TileClipper# cd /opt/TileClipper/workspace/2-tileclipper/sample/sample
+root@1d91708fd024:/opt/TileClipper/workspace/2-tileclipper/sample/sample# MP4Box -rem 4 -rem 5 -rem 6 -rem 7 -rem 8 out_tiled.mp4 -out out_removed_tile.mp4
+[core] Creating default credential key in /root/.gpac/creds.key, use -cred=PATH/TO_FILE to overwrite
+Removing track ID 4
+Removing track ID 5
+Removing track ID 6
+Removing track ID 7
+Removing track ID 8
+0.500 secs Interleaving
+root@1d91708fd024:/opt/TileClipper/workspace/2-tileclipper/sample/sample# ls -lh out_tiled.mp4 out_removed_tile.mp4
+-rw-r--r-- 1 root root 1.1M Jun 17 22:58 out_removed_tile.mp4
+-rw-r--r-- 1 root root 2.1M Jun 17 22:38 out_tiled.mp4
+root@1d91708fd024:/opt/TileClipper/workspace/2-tileclipper/sample/sample# #checked file size after removing specifc tiles
+root@1d91708fd024:/opt/TileClipper/workspace/2-tileclipper/sample/sample# python3 heatmap.py
+[176144 171264 165344 234240 168896 186352 189008 162624  44816  40624
+  34896  40288  51792  60288  63744  71920]
+root@1d91708fd024:/opt/TileClipper/workspace/2-tileclipper/sample/sample# python3 filesize.py
+Removing Tiles....: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:07<00:00, 75.57it/s]
+Generating Plot....
+root@1d91708fd024:/opt/TileClipper/workspace/2-tileclipper/sample/sample# exit
+exit
+ayush-ubantu@Ayush-Ubantu:~/Desktop/iit-video-analytics-workshop$ 
