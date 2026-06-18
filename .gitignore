@@ -2,9 +2,15 @@
 *.zip
 *.mp4
 *.hevc
-*.y4m
-*.yuv
+.y4m
+.yuv
 *.raw
+
+# generated sample/sample artifacts
+2-tileclipper/sample/sample/segments_removed/
+2-tileclipper/sample/sample/tiledVideos/
+2-tileclipper/sample/sample/hevc_frames/
+2-tileclipper/sample/sample/tiled_4x4_mp4/
 
 # Data folders
 data/
