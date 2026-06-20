@@ -1,0 +1,358 @@
+ayush-ubantu@Ayush-Ubantu:~/Desktop/iit-video-analytics-workshop/2-tileclipper/Running tileclipper/removedTileMp4/AITr5S1C4_$ python3 fix_video.py
+
+Found Total 302 segments. Fixing start...
+[1/302] Processing: output0120_tiled_tile_removed.mp4
+[2/302] Processing: output0121_tiled_tile_removed.mp4
+[3/302] Processing: output0122_tiled_tile_removed.mp4
+[4/302] Processing: output0123_tiled_tile_removed.mp4
+[5/302] Processing: output0124_tiled_tile_removed.mp4
+[6/302] Processing: output0125_tiled_tile_removed.mp4
+[7/302] Processing: output0126_tiled_tile_removed.mp4
+[8/302] Processing: output0127_tiled_tile_removed.mp4
+[9/302] Processing: output0128_tiled_tile_removed.mp4
+[10/302] Processing: output0129_tiled_tile_removed.mp4
+[11/302] Processing: output0130_tiled_tile_removed.mp4
+[12/302] Processing: output0131_tiled_tile_removed.mp4
+[13/302] Processing: output0132_tiled_tile_removed.mp4
+[14/302] Processing: output0133_tiled_tile_removed.mp4
+[15/302] Processing: output0134_tiled_tile_removed.mp4
+[16/302] Processing: output0135_tiled_tile_removed.mp4
+[17/302] Processing: output0136_tiled_tile_removed.mp4
+[18/302] Processing: output0137_tiled_tile_removed.mp4
+[19/302] Processing: output0138_tiled_tile_removed.mp4
+[20/302] Processing: output0139_tiled_tile_removed.mp4
+[21/302] Processing: output0140_tiled_tile_removed.mp4
+[22/302] Processing: output0141_tiled_tile_removed.mp4
+[23/302] Processing: output0142_tiled_tile_removed.mp4
+[24/302] Processing: output0143_tiled_tile_removed.mp4
+[25/302] Processing: output0144_tiled_tile_removed.mp4
+[26/302] Processing: output0145_tiled_tile_removed.mp4
+[27/302] Processing: output0146_tiled_tile_removed.mp4
+[28/302] Processing: output0147_tiled_tile_removed.mp4
+[29/302] Processing: output0148_tiled_tile_removed.mp4
+[30/302] Processing: output0149_tiled_tile_removed.mp4
+[31/302] Processing: output0150_tiled_tile_removed.mp4
+[32/302] Processing: output0151_tiled_tile_removed.mp4
+[33/302] Processing: output0152_tiled_tile_removed.mp4
+[34/302] Processing: output0153_tiled_tile_removed.mp4
+[35/302] Processing: output0154_tiled_tile_removed.mp4
+[36/302] Processing: output0155_tiled_tile_removed.mp4
+[37/302] Processing: output0156_tiled_tile_removed.mp4
+[38/302] Processing: output0157_tiled_tile_removed.mp4
+[39/302] Processing: output0158_tiled_tile_removed.mp4
+[40/302] Processing: output0159_tiled_tile_removed.mp4
+[41/302] Processing: output0160_tiled_tile_removed.mp4
+[42/302] Processing: output0161_tiled_tile_removed.mp4
+[43/302] Processing: output0162_tiled_tile_removed.mp4
+[44/302] Processing: output0163_tiled_tile_removed.mp4
+[45/302] Processing: output0164_tiled_tile_removed.mp4
+[46/302] Processing: output0165_tiled_tile_removed.mp4
+[47/302] Processing: output0166_tiled_tile_removed.mp4
+[48/302] Processing: output0167_tiled_tile_removed.mp4
+[49/302] Processing: output0168_tiled_tile_removed.mp4
+[50/302] Processing: output0169_tiled_tile_removed.mp4
+[51/302] Processing: output0170_tiled_tile_removed.mp4
+[52/302] Processing: output0171_tiled_tile_removed.mp4
+[53/302] Processing: output0172_tiled_tile_removed.mp4
+[54/302] Processing: output0173_tiled_tile_removed.mp4
+[55/302] Processing: output0174_tiled_tile_removed.mp4
+[56/302] Processing: output0175_tiled_tile_removed.mp4
+[57/302] Processing: output0176_tiled_tile_removed.mp4
+[58/302] Processing: output0177_tiled_tile_removed.mp4
+[59/302] Processing: output0178_tiled_tile_removed.mp4
+[60/302] Processing: output0179_tiled_tile_removed.mp4
+[61/302] Processing: output0180_tiled_tile_removed.mp4
+[62/302] Processing: output0181_tiled_tile_removed.mp4
+[63/302] Processing: output0182_tiled_tile_removed.mp4
+[64/302] Processing: output0183_tiled_tile_removed.mp4
+[65/302] Processing: output0184_tiled_tile_removed.mp4
+[66/302] Processing: output0185_tiled_tile_removed.mp4
+[67/302] Processing: output0186_tiled_tile_removed.mp4
+[68/302] Processing: output0187_tiled_tile_removed.mp4
+[69/302] Processing: output0188_tiled_tile_removed.mp4
+[70/302] Processing: output0189_tiled_tile_removed.mp4
+[71/302] Processing: output0190_tiled_tile_removed.mp4
+[72/302] Processing: output0191_tiled_tile_removed.mp4
+[73/302] Processing: output0192_tiled_tile_removed.mp4
+[74/302] Processing: output0193_tiled_tile_removed.mp4
+[75/302] Processing: output0194_tiled_tile_removed.mp4
+[76/302] Processing: output0195_tiled_tile_removed.mp4
+[77/302] Processing: output0196_tiled_tile_removed.mp4
+[78/302] Processing: output0197_tiled_tile_removed.mp4
+[79/302] Processing: output0198_tiled_tile_removed.mp4
+[80/302] Processing: output0199_tiled_tile_removed.mp4
+[81/302] Processing: output0200_tiled_tile_removed.mp4
+[82/302] Processing: output0201_tiled_tile_removed.mp4
+[83/302] Processing: output0202_tiled_tile_removed.mp4
+[84/302] Processing: output0203_tiled_tile_removed.mp4
+[85/302] Processing: output0204_tiled_tile_removed.mp4
+[86/302] Processing: output0205_tiled_tile_removed.mp4
+[87/302] Processing: output0206_tiled_tile_removed.mp4
+[88/302] Processing: output0207_tiled_tile_removed.mp4
+[89/302] Processing: output0208_tiled_tile_removed.mp4
+[90/302] Processing: output0209_tiled_tile_removed.mp4
+[91/302] Processing: output0210_tiled_tile_removed.mp4
+[92/302] Processing: output0211_tiled_tile_removed.mp4
+[93/302] Processing: output0212_tiled_tile_removed.mp4
+[94/302] Processing: output0213_tiled_tile_removed.mp4
+[95/302] Processing: output0214_tiled_tile_removed.mp4
+[96/302] Processing: output0215_tiled_tile_removed.mp4
+[97/302] Processing: output0216_tiled_tile_removed.mp4
+[98/302] Processing: output0217_tiled_tile_removed.mp4
+[99/302] Processing: output0218_tiled_tile_removed.mp4
+[100/302] Processing: output0219_tiled_tile_removed.mp4
+[101/302] Processing: output0220_tiled_tile_removed.mp4
+[102/302] Processing: output0221_tiled_tile_removed.mp4
+[103/302] Processing: output0222_tiled_tile_removed.mp4
+[104/302] Processing: output0223_tiled_tile_removed.mp4
+[105/302] Processing: output0224_tiled_tile_removed.mp4
+[106/302] Processing: output0225_tiled_tile_removed.mp4
+[107/302] Processing: output0226_tiled_tile_removed.mp4
+[108/302] Processing: output0227_tiled_tile_removed.mp4
+[109/302] Processing: output0228_tiled_tile_removed.mp4
+[110/302] Processing: output0229_tiled_tile_removed.mp4
+[111/302] Processing: output0230_tiled_tile_removed.mp4
+[112/302] Processing: output0231_tiled_tile_removed.mp4
+[113/302] Processing: output0232_tiled_tile_removed.mp4
+[114/302] Processing: output0233_tiled_tile_removed.mp4
+[115/302] Processing: output0234_tiled_tile_removed.mp4
+[116/302] Processing: output0235_tiled_tile_removed.mp4
+[117/302] Processing: output0236_tiled_tile_removed.mp4
+[118/302] Processing: output0237_tiled_tile_removed.mp4
+[119/302] Processing: output0238_tiled_tile_removed.mp4
+[120/302] Processing: output0239_tiled_tile_removed.mp4
+[121/302] Processing: output0240_tiled_tile_removed.mp4
+[122/302] Processing: output0241_tiled_tile_removed.mp4
+[123/302] Processing: output0242_tiled_tile_removed.mp4
+[124/302] Processing: output0243_tiled_tile_removed.mp4
+[125/302] Processing: output0244_tiled_tile_removed.mp4
+[126/302] Processing: output0245_tiled_tile_removed.mp4
+[127/302] Processing: output0246_tiled_tile_removed.mp4
+[128/302] Processing: output0247_tiled_tile_removed.mp4
+[129/302] Processing: output0248_tiled_tile_removed.mp4
+[130/302] Processing: output0249_tiled_tile_removed.mp4
+[131/302] Processing: output0250_tiled_tile_removed.mp4
+[132/302] Processing: output0251_tiled_tile_removed.mp4
+[133/302] Processing: output0252_tiled_tile_removed.mp4
+[134/302] Processing: output0253_tiled_tile_removed.mp4
+[135/302] Processing: output0254_tiled_tile_removed.mp4
+[136/302] Processing: output0255_tiled_tile_removed.mp4
+[137/302] Processing: output0256_tiled_tile_removed.mp4
+[138/302] Processing: output0257_tiled_tile_removed.mp4
+[139/302] Processing: output0258_tiled_tile_removed.mp4
+[140/302] Processing: output0259_tiled_tile_removed.mp4
+[141/302] Processing: output0260_tiled_tile_removed.mp4
+[142/302] Processing: output0261_tiled_tile_removed.mp4
+[143/302] Processing: output0262_tiled_tile_removed.mp4
+[144/302] Processing: output0263_tiled_tile_removed.mp4
+[145/302] Processing: output0264_tiled_tile_removed.mp4
+[146/302] Processing: output0265_tiled_tile_removed.mp4
+[147/302] Processing: output0266_tiled_tile_removed.mp4
+[148/302] Processing: output0267_tiled_tile_removed.mp4
+[149/302] Processing: output0268_tiled_tile_removed.mp4
+[150/302] Processing: output0269_tiled_tile_removed.mp4
+[151/302] Processing: output0270_tiled_tile_removed.mp4
+[152/302] Processing: output0271_tiled_tile_removed.mp4
+[153/302] Processing: output0272_tiled_tile_removed.mp4
+[154/302] Processing: output0273_tiled_tile_removed.mp4
+[155/302] Processing: output0274_tiled_tile_removed.mp4
+[156/302] Processing: output0275_tiled_tile_removed.mp4
+[157/302] Processing: output0276_tiled_tile_removed.mp4
+[158/302] Processing: output0277_tiled_tile_removed.mp4
+[159/302] Processing: output0278_tiled_tile_removed.mp4
+[160/302] Processing: output0279_tiled_tile_removed.mp4
+[161/302] Processing: output0280_tiled_tile_removed.mp4
+[162/302] Processing: output0281_tiled_tile_removed.mp4
+[163/302] Processing: output0282_tiled_tile_removed.mp4
+[164/302] Processing: output0283_tiled_tile_removed.mp4
+[165/302] Processing: output0284_tiled_tile_removed.mp4
+[166/302] Processing: output0285_tiled_tile_removed.mp4
+[167/302] Processing: output0286_tiled_tile_removed.mp4
+[168/302] Processing: output0287_tiled_tile_removed.mp4
+[169/302] Processing: output0288_tiled_tile_removed.mp4
+[170/302] Processing: output0289_tiled_tile_removed.mp4
+[171/302] Processing: output0290_tiled_tile_removed.mp4
+[172/302] Processing: output0291_tiled_tile_removed.mp4
+[173/302] Processing: output0292_tiled_tile_removed.mp4
+[174/302] Processing: output0293_tiled_tile_removed.mp4
+[175/302] Processing: output0294_tiled_tile_removed.mp4
+[176/302] Processing: output0295_tiled_tile_removed.mp4
+[177/302] Processing: output0296_tiled_tile_removed.mp4
+[178/302] Processing: output0297_tiled_tile_removed.mp4
+[179/302] Processing: output0298_tiled_tile_removed.mp4
+[180/302] Processing: output0299_tiled_tile_removed.mp4
+[181/302] Processing: output0300_tiled_tile_removed.mp4
+[182/302] Processing: output0301_tiled_tile_removed.mp4
+[183/302] Processing: output0302_tiled_tile_removed.mp4
+[184/302] Processing: output0303_tiled_tile_removed.mp4
+[185/302] Processing: output0304_tiled_tile_removed.mp4
+[186/302] Processing: output0305_tiled_tile_removed.mp4
+[187/302] Processing: output0306_tiled_tile_removed.mp4
+[188/302] Processing: output0307_tiled_tile_removed.mp4
+[189/302] Processing: output0308_tiled_tile_removed.mp4
+[190/302] Processing: output0309_tiled_tile_removed.mp4
+[191/302] Processing: output0310_tiled_tile_removed.mp4
+[192/302] Processing: output0311_tiled_tile_removed.mp4
+[193/302] Processing: output0312_tiled_tile_removed.mp4
+[194/302] Processing: output0313_tiled_tile_removed.mp4
+[195/302] Processing: output0314_tiled_tile_removed.mp4
+[196/302] Processing: output0315_tiled_tile_removed.mp4
+[197/302] Processing: output0316_tiled_tile_removed.mp4
+[198/302] Processing: output0317_tiled_tile_removed.mp4
+[199/302] Processing: output0318_tiled_tile_removed.mp4
+[200/302] Processing: output0319_tiled_tile_removed.mp4
+[201/302] Processing: output0320_tiled_tile_removed.mp4
+[202/302] Processing: output0321_tiled_tile_removed.mp4
+[203/302] Processing: output0322_tiled_tile_removed.mp4
+[204/302] Processing: output0323_tiled_tile_removed.mp4
+[205/302] Processing: output0324_tiled_tile_removed.mp4
+[206/302] Processing: output0325_tiled_tile_removed.mp4
+[207/302] Processing: output0326_tiled_tile_removed.mp4
+[208/302] Processing: output0327_tiled_tile_removed.mp4
+[209/302] Processing: output0328_tiled_tile_removed.mp4
+[210/302] Processing: output0329_tiled_tile_removed.mp4
+[211/302] Processing: output0330_tiled_tile_removed.mp4
+[212/302] Processing: output0331_tiled_tile_removed.mp4
+[213/302] Processing: output0332_tiled_tile_removed.mp4
+[214/302] Processing: output0333_tiled_tile_removed.mp4
+[215/302] Processing: output0334_tiled_tile_removed.mp4
+[216/302] Processing: output0335_tiled_tile_removed.mp4
+[217/302] Processing: output0336_tiled_tile_removed.mp4
+[218/302] Processing: output0337_tiled_tile_removed.mp4
+[219/302] Processing: output0338_tiled_tile_removed.mp4
+[220/302] Processing: output0339_tiled_tile_removed.mp4
+[221/302] Processing: output0340_tiled_tile_removed.mp4
+[222/302] Processing: output0341_tiled_tile_removed.mp4
+[223/302] Processing: output0342_tiled_tile_removed.mp4
+[224/302] Processing: output0343_tiled_tile_removed.mp4
+[225/302] Processing: output0344_tiled_tile_removed.mp4
+[226/302] Processing: output0345_tiled_tile_removed.mp4
+[227/302] Processing: output0346_tiled_tile_removed.mp4
+[228/302] Processing: output0347_tiled_tile_removed.mp4
+[229/302] Processing: output0348_tiled_tile_removed.mp4
+[230/302] Processing: output0349_tiled_tile_removed.mp4
+[231/302] Processing: output0350_tiled_tile_removed.mp4
+[232/302] Processing: output0351_tiled_tile_removed.mp4
+[233/302] Processing: output0352_tiled_tile_removed.mp4
+[234/302] Processing: output0353_tiled_tile_removed.mp4
+[235/302] Processing: output0354_tiled_tile_removed.mp4
+[236/302] Processing: output0355_tiled_tile_removed.mp4
+[237/302] Processing: output0356_tiled_tile_removed.mp4
+[238/302] Processing: output0357_tiled_tile_removed.mp4
+[239/302] Processing: output0358_tiled_tile_removed.mp4
+[240/302] Processing: output0359_tiled_tile_removed.mp4
+[241/302] Processing: output0360_tiled_tile_removed.mp4
+[242/302] Processing: output0361_tiled_tile_removed.mp4
+[243/302] Processing: output0362_tiled_tile_removed.mp4
+[244/302] Processing: output0363_tiled_tile_removed.mp4
+[245/302] Processing: output0364_tiled_tile_removed.mp4
+[246/302] Processing: output0365_tiled_tile_removed.mp4
+[247/302] Processing: output0366_tiled_tile_removed.mp4
+[248/302] Processing: output0367_tiled_tile_removed.mp4
+[249/302] Processing: output0368_tiled_tile_removed.mp4
+[250/302] Processing: output0369_tiled_tile_removed.mp4
+[251/302] Processing: output0370_tiled_tile_removed.mp4
+[252/302] Processing: output0371_tiled_tile_removed.mp4
+[253/302] Processing: output0372_tiled_tile_removed.mp4
+[254/302] Processing: output0373_tiled_tile_removed.mp4
+[255/302] Processing: output0374_tiled_tile_removed.mp4
+[256/302] Processing: output0375_tiled_tile_removed.mp4
+[257/302] Processing: output0376_tiled_tile_removed.mp4
+[258/302] Processing: output0377_tiled_tile_removed.mp4
+[259/302] Processing: output0378_tiled_tile_removed.mp4
+[260/302] Processing: output0379_tiled_tile_removed.mp4
+[261/302] Processing: output0380_tiled_tile_removed.mp4
+[262/302] Processing: output0381_tiled_tile_removed.mp4
+[263/302] Processing: output0382_tiled_tile_removed.mp4
+[264/302] Processing: output0383_tiled_tile_removed.mp4
+[265/302] Processing: output0384_tiled_tile_removed.mp4
+[266/302] Processing: output0385_tiled_tile_removed.mp4
+[267/302] Processing: output0386_tiled_tile_removed.mp4
+[268/302] Processing: output0387_tiled_tile_removed.mp4
+[269/302] Processing: output0388_tiled_tile_removed.mp4
+[270/302] Processing: output0389_tiled_tile_removed.mp4
+[271/302] Processing: output0390_tiled_tile_removed.mp4
+[272/302] Processing: output0391_tiled_tile_removed.mp4
+[273/302] Processing: output0392_tiled_tile_removed.mp4
+[274/302] Processing: output0393_tiled_tile_removed.mp4
+[275/302] Processing: output0394_tiled_tile_removed.mp4
+[276/302] Processing: output0395_tiled_tile_removed.mp4
+[277/302] Processing: output0396_tiled_tile_removed.mp4
+[278/302] Processing: output0397_tiled_tile_removed.mp4
+[279/302] Processing: output0398_tiled_tile_removed.mp4
+[280/302] Processing: output0399_tiled_tile_removed.mp4
+[281/302] Processing: output0400_tiled_tile_removed.mp4
+[282/302] Processing: output0401_tiled_tile_removed.mp4
+[283/302] Processing: output0402_tiled_tile_removed.mp4
+[284/302] Processing: output0403_tiled_tile_removed.mp4
+[285/302] Processing: output0404_tiled_tile_removed.mp4
+[286/302] Processing: output0405_tiled_tile_removed.mp4
+[287/302] Processing: output0406_tiled_tile_removed.mp4
+[288/302] Processing: output0407_tiled_tile_removed.mp4
+[289/302] Processing: output0408_tiled_tile_removed.mp4
+[290/302] Processing: output0409_tiled_tile_removed.mp4
+[291/302] Processing: output0410_tiled_tile_removed.mp4
+[292/302] Processing: output0411_tiled_tile_removed.mp4
+[293/302] Processing: output0412_tiled_tile_removed.mp4
+[294/302] Processing: output0413_tiled_tile_removed.mp4
+[295/302] Processing: output0414_tiled_tile_removed.mp4
+[296/302] Processing: output0415_tiled_tile_removed.mp4
+[297/302] Processing: output0416_tiled_tile_removed.mp4
+[298/302] Processing: output0417_tiled_tile_removed.mp4
+[299/302] Processing: output0418_tiled_tile_removed.mp4
+[300/302] Processing: output0419_tiled_tile_removed.mp4
+[301/302] Processing: output0420_tiled_tile_removed.mp4
+[302/302] Processing: output0421_tiled_tile_removed.mp4
+
+4228 frames are ready! Processing with final video...
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+Input #0, image2, from 'temp_frames/frame_%06d.png':
+  Duration: 00:02:20.93, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0x597919dcc980] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0x597919dcc980] profile High, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0x597919dcc980] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=12 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'final_smooth_video.mp4':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 1920x1080, q=2-31, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+[out#0/mp4 @ 0x597919dcc140] video:34569kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.143668%
+frame= 4228 fps= 66 q=-1.0 Lsize=   34619kB time=00:02:20.83 bitrate=2013.7kbits/s speed=2.21x    
+[libx264 @ 0x597919dcc980] frame I:18    Avg QP:14.64  size:115541
+[libx264 @ 0x597919dcc980] frame P:1193  Avg QP:20.94  size: 24656
+[libx264 @ 0x597919dcc980] frame B:3017  Avg QP:25.16  size:  1294
+[libx264 @ 0x597919dcc980] consecutive B-frames:  2.1%  4.6% 10.6% 82.6%
+[libx264 @ 0x597919dcc980] mb I  I16..4: 36.5% 51.4% 12.1%
+[libx264 @ 0x597919dcc980] mb P  I16..4:  2.3%  6.2%  1.0%  P16..4: 12.5%  4.5%  2.6%  0.0%  0.0%    skip:70.9%
+[libx264 @ 0x597919dcc980] mb B  I16..4:  0.0%  0.1%  0.0%  B16..8:  9.9%  0.3%  0.1%  direct: 0.1%  skip:89.5%  L0:43.6% L1:54.4% BI: 2.0%
+[libx264 @ 0x597919dcc980] 8x8 transform intra:63.8% inter:78.4%
+[libx264 @ 0x597919dcc980] coded y,uvDC,uvAC intra: 42.3% 20.2% 5.3% inter: 3.0% 2.4% 0.1%
+[libx264 @ 0x597919dcc980] i16 v,h,dc,p: 57% 28%  6%  9%
+[libx264 @ 0x597919dcc980] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 15% 30% 32%  3%  3%  2%  5%  2%  7%
+[libx264 @ 0x597919dcc980] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 22% 37% 10%  4%  6%  4%  8%  3%  5%
+[libx264 @ 0x597919dcc980] i8c dc,h,v,p: 71% 21%  7%  1%
+[libx264 @ 0x597919dcc980] Weighted P-Frames: Y:1.7% UV:0.0%
+[libx264 @ 0x597919dcc980] ref P L0: 70.0% 15.4% 11.3%  3.2%  0.1%
+[libx264 @ 0x597919dcc980] ref B L0: 85.7% 12.1%  2.2%
+[libx264 @ 0x597919dcc980] ref B L1: 95.8%  4.2%
+[libx264 @ 0x597919dcc980] kb/s:2009.36
+
+Fixed video: /home/ayush-ubantu/Desktop/iit-video-analytics-workshop/2-tileclipper/Running tileclipper/removedTileMp4/AITr5S1C4_/final_smooth_video.mp4
+ayush-ubantu@Ayush-Ubantu:~/Desktop/iit-video-analytics-workshop/2-tileclipper/Running tileclipper/removedTileMp4/AITr5S1C4_$ 
