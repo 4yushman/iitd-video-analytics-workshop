@@ -83,7 +83,7 @@ def fix_video():
         OUTPUT_VIDEO
     ], check=True)
 
-    print(f"\nSuccess! Optimized video saved as: {os.getcwd()}/{OUTPUT_VIDEO}")
+    print(f"\nOptimized video saved as: {os.getcwd()}/{OUTPUT_VIDEO}")
 
 if __name__ == "__main__":
     fix_video()
